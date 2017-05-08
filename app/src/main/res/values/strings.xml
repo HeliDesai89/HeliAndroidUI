@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HeliAndroidUI</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_back">Back</string>
+    <string name="action_new">Settings</string>
+    <string name="logo_desc">App logo</string>
+    <string name="img_name">Image</string>
+    <string name="title_activity_architecture">ArchitectureActivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_posters">PostersActivity</string>
+    <string name="title_activity_sceneries">SceneriesActivity</string>
+</resources>
