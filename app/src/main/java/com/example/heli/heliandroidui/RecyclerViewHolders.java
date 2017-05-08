@@ -96,7 +96,7 @@ public class RecyclerViewHolders  extends RecyclerView.ViewHolder implements Vie
             int[] imgs= new int[]{R.drawable.ani1, R.drawable.ani2, R.drawable.ani3, R.drawable.ani4, R.drawable.ani5, R.drawable.ani6};
             int[] imgview=new int[]{R.id.imageViewpopup1, R.id.imageViewpopup2, R.id.imageViewpopup3, R.id.imageViewpopup4, R.id.imageViewpopup5};
 
-            for(int i=0;i<5;i++){
+            for(int i=0;i<imgs.length-1;i++){
                 ImageView image = (ImageView) dialog.findViewById(imgview[i]);
                 image.setImageResource(imgs[i]);
             }
@@ -106,7 +106,7 @@ public class RecyclerViewHolders  extends RecyclerView.ViewHolder implements Vie
             int[] imgs= new int[]{R.drawable.arch1, R.drawable.arch2, R.drawable.arch3, R.drawable.arch4};
             int[] imgview=new int[]{R.id.imageViewpopup1, R.id.imageViewpopup2, R.id.imageViewpopup3, R.id.imageViewpopup4, R.id.imageViewpopup5};
 
-            for(int i=0;i<4;i++){
+            for(int i=0;i<imgs.length;i++){
                 ImageView image = (ImageView) dialog.findViewById(imgview[i]);
                 image.setImageResource(imgs[i]);
             }
@@ -116,7 +116,7 @@ public class RecyclerViewHolders  extends RecyclerView.ViewHolder implements Vie
             int[] imgs= new int[]{R.drawable.foo1, R.drawable.foo2, R.drawable.foo3, R.drawable.foo4, R.drawable.foo5};
             int[] imgview=new int[]{R.id.imageViewpopup1, R.id.imageViewpopup2, R.id.imageViewpopup3, R.id.imageViewpopup4, R.id.imageViewpopup5};
 
-            for(int i=0;i<4;i++){
+            for(int i=0;i<imgs.length-1;i++){
                 ImageView image = (ImageView) dialog.findViewById(imgview[i]);
                 image.setImageResource(imgs[i]);
             }
@@ -126,7 +126,7 @@ public class RecyclerViewHolders  extends RecyclerView.ViewHolder implements Vie
             int[] imgs= new int[]{R.drawable.post1, R.drawable.post2, R.drawable.post3, R.drawable.post4, R.drawable.post5};
             int[] imgview=new int[]{R.id.imageViewpopup1, R.id.imageViewpopup2, R.id.imageViewpopup3, R.id.imageViewpopup4, R.id.imageViewpopup5};
 
-            for(int i=0;i<4;i++){
+            for(int i=0;i<imgs.length-1;i++){
                 ImageView image = (ImageView) dialog.findViewById(imgview[i]);
                 image.setImageResource(imgs[i]);
             }
@@ -136,7 +136,7 @@ public class RecyclerViewHolders  extends RecyclerView.ViewHolder implements Vie
             int[] imgs= new int[]{R.drawable.scene1, R.drawable.scene2, R.drawable.scene3, R.drawable.scene4, R.drawable.scene5};
             int[] imgview=new int[]{R.id.imageViewpopup1, R.id.imageViewpopup2, R.id.imageViewpopup3, R.id.imageViewpopup4, R.id.imageViewpopup5};
 
-            for(int i=0;i<4;i++){
+            for(int i=0;i<imgs.length-1;i++){
                 ImageView image = (ImageView) dialog.findViewById(imgview[i]);
                 image.setImageResource(imgs[i]);
             }
