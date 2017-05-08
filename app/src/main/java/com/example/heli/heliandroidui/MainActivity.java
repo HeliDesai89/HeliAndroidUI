@@ -19,9 +19,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-/*Samsung: Android UI Challenge
-
-App Name: HeliAndroidUI
+/*App Name: HeliAndroidUI
 
 Performs all Functionality mentioned in Interaction_Wireframe.pdf
 1) Home page of Activity scrolles through the multiple cards of the images
